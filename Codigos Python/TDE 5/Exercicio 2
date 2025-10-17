@@ -1,0 +1,13 @@
+l1 = float(input('Insira o primeiro lado:'))
+l2 = float(input('Insira o segundo lado:'))
+l3 = float(input('insira o terceiro lado:'))
+
+if l1+l2>l3 and l2+l3>l1 and l3+l1>l2:
+    if l1==l2==l3:
+        print ('equivaleto')
+    elif l1==l2 or l2==l3 or l1==l3:
+        print ('isosceles')
+    else:
+        print ('escaleno')
+else:
+    print ('Ñ é triângulo')
