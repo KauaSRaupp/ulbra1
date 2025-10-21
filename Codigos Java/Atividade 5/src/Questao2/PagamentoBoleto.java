@@ -1,8 +1,9 @@
+package Atividade2;
+
 public class PagamentoBoleto extends PagamentoBase implements Pagamento {
     @Override
-    public void processar(float valor) {
-        super.processar(valor);
-        System.out.println("Pagamento pago, espera o dia");
+    public void processar(Float valor) {
+        System.out.println("Pagamento sera aprovado apos 1 dia util");
     }
 
     @Override
